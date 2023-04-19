@@ -35,6 +35,10 @@ return packer.startup(function(use)
   -- packer can manage itself
   use("wbthomason/packer.nvim")
 
+  -- theme
+  use('folke/tokyonight.nvim')
+  --use('Mofiqul/vscode.nvim')
+
   -- file explorer
   use("nvim-tree/nvim-tree.lua")
 

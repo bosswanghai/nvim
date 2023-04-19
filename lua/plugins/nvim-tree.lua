@@ -6,7 +6,7 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = true
 
 -- empty setup using defaults
-require("nvim-tree").setup()
+-- require("nvim-tree").setup()
 
 -- OR setup with some options
 require("nvim-tree").setup({
@@ -22,22 +22,4 @@ require("nvim-tree").setup({
   filters = {
     dotfiles = true,
   },
-
-        notify = {
-        threshold = vim.log.levels.DEBUG,
-      },
-        log = {
-        enable = true,
-        truncate = true,
-        types = {
-          all = true,
-          config = true,
-          copy_paste = true,
-          dev = true,
-          diagnostics = true,
-          git = false,
-          profile = true,
-          watcher = true,
-        },
-      },
 })

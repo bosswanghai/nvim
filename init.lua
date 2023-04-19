@@ -6,6 +6,8 @@ require('core.keymaps')
 require('core.colorscheme')
 
 -- plugins config
+require("plugins.tokyonight")
+--require("plugins.vscode")
 require("plugins.nvim-tree")
 require("plugins.comment")
 require("plugins.lualine")
